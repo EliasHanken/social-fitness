@@ -49,12 +49,13 @@ npm run dev
 
 This app can be deployed to a production environment using a service such as Heroku.
 
-## Built With MERN stack
+## Built With
 
 - MongoDB
 - Express
 - React
 - Node.js
+- Redux
 
 ## Contributing
 
