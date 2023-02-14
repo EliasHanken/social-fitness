@@ -57,7 +57,7 @@ const NavBar = () => {
         {isNonMobileScreens && (
           <FlexBetween
             backgroundColor={neutralLight}
-            border="9px"
+            borderRadius="9px"
             gap="3rem"
             padding="0.1rem 1.5rem"
           >
