@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Navigate,
   Switch,
   Route,
@@ -16,13 +16,13 @@ import { createTheme } from "@mui/material/styles";
 import { themeSettings } from "theme";
 
 function App() {
-  const { mode } = useSelector((state) => state.mode);
+  const mode = useSelector((state) => state.mode);
   const theme = useMemo(() => createTheme(themeSettings(mode)), [mode]);
   const isAuth = Boolean(useSelector((state) => state.token));
 
   return (
     <div className="app">
-      <Router>
+      <BrowserRouter>
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <Routes>
@@ -37,7 +37,7 @@ function App() {
             />
           </Routes>
         </ThemeProvider>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
