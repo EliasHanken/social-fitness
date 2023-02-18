@@ -22,12 +22,15 @@ const UserWidget = ({ userId, picturePath }) => {
   const main = palette.neutral.main;
 
   const getUser = async () => {
-    const res = await fetch(`http://localhost:3001/users/${userId}`, {
-      headers: {
-        method: "GET",
-        Authorization: `Bearer ${token}`,
-      },
-    });
+    const res = await fetch(
+      `http://https://social-fitness.onrender.com:3001/users/${userId}`,
+      {
+        headers: {
+          method: "GET",
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
     const data = await res.json();
     setUser(data);
   };
