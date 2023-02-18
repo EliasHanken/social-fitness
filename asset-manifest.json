@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/social-fitness/static/css/main.b62ea404.css",
-    "main.js": "/social-fitness/static/js/main.3fbc28f1.js",
+    "main.js": "/social-fitness/static/js/main.4d69ef77.js",
     "index.html": "/social-fitness/index.html",
     "main.b62ea404.css.map": "/social-fitness/static/css/main.b62ea404.css.map",
-    "main.3fbc28f1.js.map": "/social-fitness/static/js/main.3fbc28f1.js.map"
+    "main.4d69ef77.js.map": "/social-fitness/static/js/main.4d69ef77.js.map"
   },
   "entrypoints": [
     "static/css/main.b62ea404.css",
-    "static/js/main.3fbc28f1.js"
+    "static/js/main.4d69ef77.js"
   ]
 }
