@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Streafe/social-fitness/static/css/main.b62ea404.css",
-    "main.js": "/Streafe/social-fitness/static/js/main.649c50dd.js",
-    "index.html": "/Streafe/social-fitness/index.html",
-    "main.b62ea404.css.map": "/Streafe/social-fitness/static/css/main.b62ea404.css.map",
-    "main.649c50dd.js.map": "/Streafe/social-fitness/static/js/main.649c50dd.js.map"
+    "main.css": "/social-fitness/static/css/main.b62ea404.css",
+    "main.js": "/social-fitness/static/js/main.649c50dd.js",
+    "index.html": "/social-fitness/index.html",
+    "main.b62ea404.css.map": "/social-fitness/static/css/main.b62ea404.css.map",
+    "main.649c50dd.js.map": "/social-fitness/static/js/main.649c50dd.js.map"
   },
   "entrypoints": [
     "static/css/main.b62ea404.css",
