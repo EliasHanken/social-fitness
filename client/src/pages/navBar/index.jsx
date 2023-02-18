@@ -85,6 +85,7 @@ const NavBar = () => {
           <FormControl variant="standard" value={fullName}>
             <Select
               value={fullName}
+              onClick={() => navigate(`/profile/${user._id}`)}
               sx={{
                 backgroundColor: neutralLight,
                 width: "150px",
@@ -160,6 +161,7 @@ const NavBar = () => {
             <FormControl variant="standard" value={fullName}>
               <Select
                 value={fullName}
+                onClick={() => navigate(`/profile/${user._id}`)}
                 sx={{
                   backgroundColor: neutralLight,
                   width: "150px",
