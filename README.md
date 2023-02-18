@@ -1,5 +1,7 @@
 # Social-Fitness App [![pages-build-deployment](https://github.com/Streafe/social-fitness/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Streafe/social-fitness/actions/workflows/pages/pages-build-deployment)
 
+Hosted with GitHub Pages at https://streafe.github.io/social-fitness/
+
 A social-fitness platform that allows users to create, view, like and comment on posts.
 
 ## Features

@@ -1,6 +1,6 @@
 {
   "name": "client",
-  "homepage": "https://github.com/Streafe/social-fitness/",
+  "homepage": "https://streafe.github.io/social-fitness/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
