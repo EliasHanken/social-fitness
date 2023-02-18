@@ -20,7 +20,7 @@ const AdvertWidget = () => {
         width="100%"
         height="auto"
         alt="advert"
-        src="http://https://social-fitness.onrender.com:3001/assets/info4.jpeg"
+        src="https://social-fitness.onrender.com/assets/info4.jpeg"
         style={{ borderRadius: "0.75rem", marginTop: "0.75rem 0" }}
       />
       <FlexBetween>

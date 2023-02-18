@@ -16,7 +16,7 @@ const FriendListWidget = ({ userId }) => {
 
   const getFriends = async () => {
     const response = await fetch(
-      `http://https://social-fitness.onrender.com:3001/users/${userId}/friends`,
+      `https://social-fitness.onrender.com/users/${userId}/friends`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },

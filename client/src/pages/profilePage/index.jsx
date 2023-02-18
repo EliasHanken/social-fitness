@@ -18,7 +18,7 @@ const ProfilePage = () => {
 
   const getUser = async () => {
     const response = await fetch(
-      `http://https://social-fitness.onrender.com:3001/users/${userId}`,
+      `https://social-fitness.onrender.com/users/${userId}`,
       {
         method: "GET",
         headers: { Authorization: `Bearer ${token}` },

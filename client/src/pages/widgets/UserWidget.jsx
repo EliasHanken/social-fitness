@@ -23,7 +23,7 @@ const UserWidget = ({ userId, picturePath }) => {
 
   const getUser = async () => {
     const res = await fetch(
-      `http://https://social-fitness.onrender.com:3001/users/${userId}`,
+      `https://social-fitness.onrender.com/users/${userId}`,
       {
         headers: {
           method: "GET",

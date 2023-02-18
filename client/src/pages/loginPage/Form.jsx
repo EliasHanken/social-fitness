@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "http://https://social-fitness.onrender.com:3001/auth/register",
+      "https://social-fitness.onrender.com/auth/register",
       {
         method: "POST",
         body: formData,
@@ -80,7 +80,7 @@ const Form = () => {
 
   const login = async (values, onSubmitProps) => {
     const loggedInResponse = await fetch(
-      "http://https://social-fitness.onrender.com:3001/auth/login",
+      "https://social-fitness.onrender.com/auth/login",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
